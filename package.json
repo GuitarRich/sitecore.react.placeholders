@@ -2,11 +2,9 @@
     "name": "sitecore.react.placeholders",
     "version": "0.1.0",
     "description": "A reactjs module to add Sitecore placeholders for use with the Sitecore.React module.",
-    "main": "lib",
+    "main": "Placeholer.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "rm -rf lib && mkdir lib && babel src -d lib",
-        "release-version": "smooth-release"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
