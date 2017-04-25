@@ -1,7 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 class Placeholder extends React.Component {
+    componentDidMount() {
+        // some logic here - we only test if the method is called
+    }
     render() {
         return this.props.content;
     }
@@ -18,7 +21,7 @@ Placeholder.propTypes = {
 };
 
 Placeholder.defaultProps = {
-    placeholderKey: "not set",
+    placeholderKey: 'not set',
     isDynamic: false,
     isSitecore: false
 };
